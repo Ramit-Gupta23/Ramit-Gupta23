@@ -16,7 +16,7 @@
 
 ```
 > whoami
-  Ramit Gupta — AI/ML Engineer
+  Ramit Gupta — Student
   Delhi-NCR, India
 
 > cat focus.txt
