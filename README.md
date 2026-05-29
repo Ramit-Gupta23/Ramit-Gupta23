@@ -12,7 +12,7 @@
 
 </div>
 
-<div align="right">
+<div align="centre">
 
 ```
 > whoami
@@ -177,11 +177,8 @@ C++       ████████░░░░  secondary
 ## `~/stats`
 
 <div align="center">
-
-| | |
-|:---:|:---:|
-| ![Stats](https://github-readme-stats.vercel.app/api?username=Ramit-Gupta23&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9) | ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ramit-Gupta23&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9) |
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Ramit-Gupta23&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramit-Gupta23&layout=compact&theme=chartreuse-dark&hide_border=true" height="165" />
 </div>
 
 <div align="center">
