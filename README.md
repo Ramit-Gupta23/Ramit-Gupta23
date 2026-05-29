@@ -1,134 +1,12 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Ramit%20Gupta&fontSize=45&fontColor=ffffff&animation=fadeIn)
-
-### AI/ML Engineer · Computer Vision · Generative AI
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ramit-gupta23/)
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/Ramit-Gupta23)
-[![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail)](mailto:ramitgupta17@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Ramit-Gupta23&label=Profile%20views&color=0e75b6&style=for-the-badge)](https://github.com/Ramit-Gupta23)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:0f2027,70:1a3a4a,100:0f4c75&height=280&section=header&text=Ramit%20Gupta&fontSize=55&fontColor=ffffff&animation=fadeIn&desc=AI%20%7C%20ML%20%7C%20Computer%20Vision%20%7C%20Generative%20AI&descSize=20&descAlignY=65)
 
 </div>
 
----
-
-## About
-
-Engineering student building intelligent, production-ready systems across Machine Learning, Deep Learning, Computer Vision, and Generative AI. Focused on taking models from notebook to deployment — event-driven cloud pipelines, real-time inference, and scalable ML architecture on AWS.
-
-Currently working on: Generative AI systems · end-to-end ML deployment · Transformer internals
-
----
-
-## Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
-![C++](https://img.shields.io/badge/C++-blue?style=for-the-badge&logo=c%2B%2B)
-
-**ML / Deep Learning**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?style=for-the-badge&logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-red?style=for-the-badge&logo=keras)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-blue?style=for-the-badge&logo=scikit-learn)
-
-**Computer Vision**
-
-![OpenCV](https://img.shields.io/badge/OpenCV-green?style=for-the-badge&logo=opencv)
-![YOLO](https://img.shields.io/badge/YOLO-black?style=for-the-badge)
-
-**Generative AI**
-
-![Transformers](https://img.shields.io/badge/Transformers-grey?style=for-the-badge)
-![tiktoken](https://img.shields.io/badge/tiktoken-grey?style=for-the-badge)
-![SentencePiece](https://img.shields.io/badge/SentencePiece-grey?style=for-the-badge)
-
-**Cloud**
-
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazon-aws)
-
-**Tools**
-
-![Streamlit](https://img.shields.io/badge/Streamlit-red?style=for-the-badge&logo=streamlit)
-![Jupyter](https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=jupyter)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git)
-
----
-
-## Projects
-
-### [TerraStorm – Cloud-Native Land Monitoring](https://github.com/Ramit-Gupta23/TerraStorm-Cloud-Native-Land-Monitoring)
-
-Event-driven AWS platform that detects land-use changes from satellite imagery — deforestation, urban expansion, water body shifts, illegal encroachment. Satellite images uploaded to S3 trigger Lambda, which invokes a CNN change-detection model on SageMaker. Results are stored back to S3, visualized through a Django dashboard, and critical alerts dispatched via Amazon SNS.
-
-`Django` · `CNN (Siamese/Change Detection)` · `AWS SageMaker` · `Lambda` · `S3` · `SNS` · `Docker`
-
----
-
-### [IMDB Sentiment Analysis – SimpleRNN](https://github.com/Ramit-Gupta23/IMDB_RNN)
-
-End-to-end sentiment classifier on the Keras IMDB dataset. Covers the full cycle: preprocessing, sequence modeling with SimpleRNN, training stability analysis (exploding loss from ReLU vs. tanh, vanishing gradients), model serialization, and deployment via Streamlit. Documents architectural trade-offs of SimpleRNN vs. LSTM/GRU with concrete observations on overfitting and vocabulary constraints.
-
-`TensorFlow` · `Keras` · `Streamlit` · `Jupyter`
-
----
-
-### [Transformer from Scratch – GPT](https://github.com/Ramit-Gupta23/Transformer-from-Scratch)
-
-Ground-up GPT implementation in a Jupyter notebook. Starts with a character-level Bigram Language Model as a baseline, then builds toward self-attention and multi-head attention blocks. Includes tokenization exploration with OpenAI's [tiktoken](https://github.com/openai/tiktoken) and [SentencePiece](https://github.com/google/sentencepiece).
-
-`PyTorch` · `tiktoken` · `SentencePiece` · `Jupyter`
-
----
-
-### [Spam Detection](https://github.com/Ramit-Gupta23/Spam_Detection)
-
-Text classification pipeline using TF-IDF vectorization and a Naive Bayes classifier. The fitted vectorizer and model are serialized separately — keeping preprocessing and inference reproducible across environments. Deployed live on [Render](https://spam-detection-d1cu.onrender.com/).
-
-`Scikit-Learn` · `TF-IDF` · `Pickle` · `Render`
-
----
-
-## Key Libraries & Tools
-
-| Library / Tool | Purpose |
-|---|---|
-| [TensorFlow](https://www.tensorflow.org/) | Deep learning framework |
-| [Keras](https://keras.io/) | High-level model building |
-| [Scikit-Learn](https://scikit-learn.org/) | Classical ML, TF-IDF, metrics |
-| [OpenCV](https://opencv.org/) | Computer vision pipelines |
-| [Ultralytics YOLO](https://docs.ultralytics.com/) | Real-time object detection |
-| [Streamlit](https://streamlit.io/) | Fast ML app deployment |
-| [tiktoken](https://github.com/openai/tiktoken) | OpenAI BPE tokenizer |
-| [SentencePiece](https://github.com/google/sentencepiece) | Subword tokenization |
-| [Amazon SageMaker](https://aws.amazon.com/sagemaker/) | Managed ML training & inference |
-| [AWS Lambda](https://aws.amazon.com/lambda/) | Serverless event-driven compute |
-| [Amazon SNS](https://aws.amazon.com/sns/) | Real-time alert delivery |
-| [Django](https://www.djangoproject.com/) | Backend and dashboard framework |
-| [Docker](https://www.docker.com/) | Containerization |
-| [Jupyter](https://jupyter.org/) | Notebook-based experimentation |
-
----
-
-## GitHub Stats
-
 <div align="center">
-
-![Ramit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ramit-Gupta23&show_icons=true&theme=tokyonight)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ramit-Gupta23&theme=tokyonight)
-
-</div>
-
----
-
-## Contribution Graph
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ramit-Gupta23&theme=tokyo-night)
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Building+Intelligent+Systems+%F0%9F%A4%96;Machine+Learning+%7C+Deep+Learning;Computer+Vision+%7C+OpenCV+%7C+YOLO;Generative+AI+%7C+Transformers+%7C+LLMs;AWS+Cloud+%7C+End-to-End+ML+Deployment)](https://git.io/typing-svg)
 
 </div>
 
@@ -136,11 +14,200 @@ Text classification pipeline using TF-IDF vectorization and a Naive Bayes classi
 
 <div align="center">
 
-*Focused on building scalable, practical AI systems. Open to collaborations.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramit-gupta23/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramitgupta17@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ramit-Gupta23)
+[![Profile Views](https://visitcount.itsvg.in/api?id=Ramit-Gupta23&icon=6&color=0)](https://visitcount.itsvg.in)
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ramit-gupta23/)
-[![Email](https://img.shields.io/badge/Email-ramitgupta17@gmail.com-red?style=flat&logo=gmail)](mailto:ramitgupta17@gmail.com)
+</div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer)
+---
+
+## 🧠 About Me
+
+```python
+class RamitGupta:
+    def __init__(self):
+        self.name        = "Ramit Gupta"
+        self.location    = "Delhi-NCR, India 🇮🇳"
+        self.focus       = ["ML", "Deep Learning", "Computer Vision", "Generative AI"]
+        self.tools       = ["OpenCV", "YOLO", "TensorFlow", "PyTorch", "AWS"]
+        self.currently   = "Building end-to-end ML systems & exploring LLM internals"
+        self.goal        = "Scalable production-level AI products"
+
+    def say_hi(self):
+        print("Engineering student → turning research into real systems.")
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### 💬 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### 🤖 Machine Learning & Deep Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+
+### 👁️ Computer Vision
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=darkreader&logoColor=black)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-0075FF?style=for-the-badge&logo=github&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### 🧬 Generative AI & NLP
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FF9A00?style=for-the-badge&logo=huggingface&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![tiktoken](https://img.shields.io/badge/tiktoken-412991?style=for-the-badge&logo=openai&logoColor=white)
+![SentencePiece](https://img.shields.io/badge/SentencePiece-grey?style=for-the-badge&logo=google&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### ☁️ Cloud & MLOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![Amazon SNS](https://img.shields.io/badge/SNS-FF4F8B?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 🧰 Tools & Frameworks
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+---
+
+## 🚀 Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌍 [TerraStorm](https://github.com/Ramit-Gupta23/TerraStorm-Cloud-Native-Land-Monitoring)
+**Cloud-Native Land Change Detection**
+
+Event-driven AWS platform that detects deforestation, urban expansion, and illegal encroachment from satellite imagery. S3 → Lambda → SageMaker CNN → Django dashboard → SNS alerts.
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django)
+![CNN](https://img.shields.io/badge/CNN-Siamese-blue?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎬 [IMDB RNN](https://github.com/Ramit-Gupta23/IMDB_RNN)
+**Sentiment Analysis · SimpleRNN**
+
+Full end-to-end pipeline: preprocessing, SimpleRNN training, activation analysis (ReLU vs tanh), model serialization, and live Streamlit deployment.
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [Transformer from Scratch](https://github.com/Ramit-Gupta23/Transformer-from-Scratch)
+**GPT Built from the Ground Up**
+
+Character-level Bigram LM → self-attention → multi-head attention → full GPT block. Tokenization with OpenAI tiktoken and SentencePiece.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch)
+![tiktoken](https://img.shields.io/badge/tiktoken-412991?style=flat-square&logo=openai)
+![SentencePiece](https://img.shields.io/badge/SentencePiece-grey?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 📧 [Spam Detection](https://github.com/Ramit-Gupta23/Spam_Detection)
+**TF-IDF · Deployed on Render**
+
+TF-IDF + Naive Bayes pipeline with separately serialized vectorizer and model — production-grade inference consistency pattern. [Live demo ↗](https://spam-detection-d1cu.onrender.com/)
+
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ramit-Gupta23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramit-Gupta23&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=Ramit-Gupta23&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=Ramit-Gupta23&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ramit-Gupta23&theme=tokyo-night&hide_border=true&area=true)
+
+</div>
+
+---
+
+## 🎯 Areas of Focus
+
+```
+📡  Computer Vision      →   Real-time detection (YOLO), satellite image analysis (OpenCV)
+🧠  Deep Learning        →   CNNs, RNNs, LSTMs, Transformer architectures
+✨  Generative AI        →   LLM internals, GPT from scratch, tokenization
+☁️  MLOps & Cloud        →   AWS end-to-end pipelines, serverless ML inference
+🚀  Deployment           →   Streamlit, Django, Docker, Render, EC2
+```
+
+---
+
+<div align="center">
+
+*Open to collaborations, contributions, and interesting AI problems.*
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramit-gupta23/)
+[![Email](https://img.shields.io/badge/Send%20an%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramitgupta17@gmail.com)
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f4c75,50:1a3a4a,100:0d0d0d&height=120&section=footer)
 
 </div>
