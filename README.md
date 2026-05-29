@@ -31,7 +31,7 @@ class RamitGupta:
         self.name        = "Ramit Gupta"
         self.location    = "Delhi-NCR, India 🇮🇳"
         self.focus       = ["ML", "Deep Learning", "Computer Vision", "Generative AI"]
-        self.tools       = ["OpenCV", "YOLO", "TensorFlow", "PyTorch", "AWS"]
+        self.tools       = ["Langchain", "YOLO", "TensorFlow", "PyTorch", "AWS"]
         self.currently   = "Building end-to-end ML systems & exploring LLM internals"
         self.goal        = "Scalable production-level AI products"
 
@@ -90,67 +90,6 @@ class RamitGupta:
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
----
-
-## 🚀 Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌍 [TerraStorm](https://github.com/Ramit-Gupta23/TerraStorm-Cloud-Native-Land-Monitoring)
-**Cloud-Native Land Change Detection**
-
-Event-driven AWS platform that detects deforestation, urban expansion, and illegal encroachment from satellite imagery. S3 → Lambda → SageMaker CNN → Django dashboard → SNS alerts.
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django)
-![CNN](https://img.shields.io/badge/CNN-Siamese-blue?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎬 [IMDB RNN](https://github.com/Ramit-Gupta23/IMDB_RNN)
-**Sentiment Analysis · SimpleRNN**
-
-Full end-to-end pipeline: preprocessing, SimpleRNN training, activation analysis (ReLU vs tanh), model serialization, and live Streamlit deployment.
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 [Transformer from Scratch](https://github.com/Ramit-Gupta23/Transformer-from-Scratch)
-**GPT Built from the Ground Up**
-
-Character-level Bigram LM → self-attention → multi-head attention → full GPT block. Tokenization with OpenAI tiktoken and SentencePiece.
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch)
-![tiktoken](https://img.shields.io/badge/tiktoken-412991?style=flat-square&logo=openai)
-![SentencePiece](https://img.shields.io/badge/SentencePiece-grey?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-### 📧 [Spam Detection](https://github.com/Ramit-Gupta23/Spam_Detection)
-**TF-IDF · Deployed on Render**
-
-TF-IDF + Naive Bayes pipeline with separately serialized vectorizer and model — production-grade inference consistency pattern. [Live demo ↗](https://spam-detection-d1cu.onrender.com/)
-
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render)
-
-</td>
-</tr>
-</table>
-
----
 
 ## 📊 GitHub Stats
 
